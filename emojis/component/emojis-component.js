@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import FloatingEmojisContainer from '../lib/container/floating-emojis-container'
+import FloatingEmojisContainer from './emojis/container/floating-emojis-container'
 
 class EmojisComponent extends Component {
     constructor() {
