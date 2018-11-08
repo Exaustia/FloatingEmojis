@@ -1,44 +1,58 @@
+
 # FloatingEmojis
 
-
+  
+  
 Lib to move images automatically
-Easy to use and a lot of settings
-
-# FloatingEmojis
-
-Example to use floating on reactJs
 
 Easy to use and a lot of settings
 
-
+  
+  
 
 # Documentation
 
-How to call ? 
-Use <FloatingEmojisContainer emojis={emojis} />
+  
 
-What is emojis ? 
-emojis = {
-    img: img you need see
-    numberOfEmojis: Number emojis you need to see (you can send multiple emojis with the same img)
-}
+How to call ?
 
-Settings :
+Call  `<FloatingEmojisContainer emojis={emojis} />`
 
-- animationDuration 
-- animationTimingFunction 
-- animationRepeat 
+  
+
+What is emojis ?
+
+    emojis = {
+	    img: img you need see
+	    numberOfEmojis: Number emojis you need to see (you can send multiple emojis with the same img)
+    }
+
+  
+**Settings :**
+
+  - animationDuration
+
+- animationTimingFunction
+
+- animationRepeat
+
 - animationDirection
+
 - marginLeft
+
 - startHeight
 
+  
+  
 
-Default Settings => 
+**Default Settings :**
 
-FloatingEmojisContainer.settingsEmojis = {
-  repeat: 1,
-  duration: 8,
-  direction: 'normal',
-  size: 2,
-  animation: 'linear'
-}
+  
+
+    FloatingEmojisContainer.settingsEmojis = { 
+	    repeat: 1, 
+	    duration: 8,
+	    direction: 'normal',
+	    size: 2,
+	    animation: 'linear'
+    }
